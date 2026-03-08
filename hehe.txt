@@ -1,1 +1,18 @@
-hehe
+# AutoDevAI
+
+AutoDevAI is an AI-powered DevOps assistant that monitors repository updates, automatically runs tests, analyzes failures, and proposes fixes before code is merged into the main branch.
+
+The system connects to GitHub repositories, detects commits in the testing branch, executes automated test pipelines in isolated environments, and uses AI to diagnose errors, generate patches, and validate documentation.
+
+AutoDevAI provides a live dashboard that shows CI logs, detected issues, suggested fixes, and documentation updates in real time.
+
+## Core Features
+
+* Automated testing of new commits in the testing branch
+* AI-based bug detection and patch generation
+* Live CI logs and debugging insights through a dashboard
+* Documentation-to-code validation
+* Automatic pull request generation with explainable fixes
+* Safe validation layer before merging into the main branch
+
+AutoDevAI acts as an intelligent safeguard between development and production, helping teams detect issues early and maintain reliable, well-documented codebases.
